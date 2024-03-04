@@ -1,0 +1,71 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 90%; /* Adjusted width for smaller screens */
+  margin: 0 auto;
+  padding: 10px; /* Reduced padding for smaller screens */
+}
+
+header {
+  text-align: center; /* Centered header text for mobile */
+  padding: 10px 0; /* Reduced padding for smaller screens */
+  background-color: #1e1e1f;
+}
+
+header h1 {
+  font-size: 2em; /* Adjusted font size for mobile */
+}
+
+main {
+  display: block; /* Changed display to block for mobile responsiveness */
+  padding-bottom: 10px; /* Reduced padding for smaller screens */
+}
+
+section {
+  width: 100%; /* Full width for mobile */
+  margin: 0 auto; /* Centering sections */
+  margin-bottom: 20px; /* Adjusted margin for smaller screens */
+}
+
+section h2 {
+  font-size: 1.3em; /* Adjusted font size for mobile */
+  margin-bottom: 10px; /* Adjusted margin for smaller screens */
+}
+
+section p {
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 8px; /* Adjusted margin for smaller screens */
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 5px 0;
+  background-color: #121212;
+}

@@ -1,0 +1,16 @@
+Start=======
+start====
+0
+swim
+circle
+==========
+start====
+====
+===
+circle
+==========
+1
+12min
+===
+long loop
+==========
