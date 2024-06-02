@@ -10,6 +10,10 @@
 </head>
 
 <body>
+  <div id="warningDropdown" class="warning-dropdown">
+    <p>Warning: This is a warning message! <span id="closeWarning" class="close-btn">&times;</span></p>
+  </div>
+
   <header>
     <div class="container">
       <h1>Christian Rogers</h1>
@@ -18,25 +22,25 @@
   </header>
 
   <main class="container">
-<center>    
-<section>
-      <p>I'm a Canadian who likes math and computers.</p>
-    </section>
+    <center>
+      <section>
+        <p>I'm a Canadian who likes math and computers.</p>
+      </section>
     </center>
 
     <center>
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li><a href="https://github.com/christianGRogers">github</a></li>
-	<li><a href="http://bradensbay.com/lessonHelper/">lessonHelper demo</a></li>
-      </ul>
-    </section>
+      <section>
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="https://github.com/christianGRogers">github</a></li>
+          <li><a href="http://bradensbay.com/lessonHelper/">lessonHelper demo</a></li>
+        </ul>
+      </section>
     </center>
     <center>
-    <section>
-    <img src="https://media.licdn.com/dms/image/D4E03AQH3cPLgGbMQCw/profile-displayphoto-shrink_800_800/0/1706663632213?e=1712188800&v=beta&t=2RMyoN4iYtCG82Mxm1whaMVxZdXD6q9wlglJH80QN24" alt="Me">
-    </secton>
+      <section>
+        <img src="https://media.licdn.com/dms/image/D4E03AQH3cPLgGbMQCw/profile-displayphoto-shrink_800_800/0/1706663632213?e=1712188800&v=beta&t=2RMyoN4iYtCG82Mxm1whaMVxZdXD6q9wlglJH80QN24" alt="Me">
+      </section>
     </center>
   </main>
 
@@ -45,7 +49,12 @@
       <p>&copy; 2024 Christian Rogers</p> <a href="/kjv">kjv</a>
     </div>
   </footer>
+
+  <script>
+    document.getElementById('closeWarning').onclick = function() {
+      document.getElementById('warningDropdown').style.display = 'none';
+    };
+  </script>
 </body>
 
 </html>
-
